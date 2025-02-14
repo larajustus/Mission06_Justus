@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission06_Justus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c366ba7d2ad7d43920dd8ba3f532cfc24b896337")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission06_Justus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission06_Justus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

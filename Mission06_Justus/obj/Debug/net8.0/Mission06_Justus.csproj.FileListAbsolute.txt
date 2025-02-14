@@ -131,3 +131,4 @@
 /Users/larajustus/IS 413/Mission06_Justus/Mission06_Justus/bin/Debug/net8.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/larajustus/IS 413/Mission06_Justus/Mission06_Justus/obj/Debug/net8.0/Mission06_Justus.csproj.AssemblyReference.cache
 /Users/larajustus/IS 413/Mission06_Justus/Mission06_Justus/obj/Debug/net8.0/Mission0.F4B875BF.Up2Date
+/Users/larajustus/IS 413/Mission06_Justus/Mission06_Justus/obj/Debug/net8.0/Mission06_Justus.sourcelink.json

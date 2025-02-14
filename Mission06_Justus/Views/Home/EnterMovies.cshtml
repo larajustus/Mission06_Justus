@@ -2,6 +2,8 @@
 
 <h1>Add a Movie to the Collection</h1>
 
+@*Form for user to submit a movie*@
+
 <form method="post" asp-action="EnterMovies">
     <label asp-for="Title">Title:</label>
     <input asp-for="Title" required/>
@@ -33,8 +35,9 @@
     <label asp-for="LentTo">Lent To:</label>
     <input asp-for="LentTo"/>
     <br/>
+    @*Limit to 25 characters*@
     <label asp-for="Notes">Notes (less than 25 characters):</label>
     <input asp-for="Notes" maxlength="25"/>
     <br/>
-    <button type="submit">Submit Movie Entry</button>
+    <button type="submit">Submit Movie</button>
 </form>

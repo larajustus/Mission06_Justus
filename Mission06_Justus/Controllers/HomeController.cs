@@ -6,6 +6,7 @@ namespace Mission06_Justus.Controllers;
 
 public class HomeController : Controller
 {
+    //Create instance of Database usable throughout the file
     private MovieEntryContext _context;
 
     public HomeController(MovieEntryContext temp)
