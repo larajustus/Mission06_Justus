@@ -93,3 +93,67 @@ a img:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
+
+/* Table Styling */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Soft Red Stripes for Odd Rows */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #fbeaea; /* Light red tint */
+}
+
+/* Soft Red Stripes for Even Rows */
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #fdf6f6; /* Slightly lighter red */
+}
+
+/* Hover Effect with Slight Red Glow */
+.table-hover tbody tr:hover {
+  background-color: #fde2e2; /* Very soft red */
+  cursor: pointer;
+}
+
+/* Table Borders */
+.table-bordered td, .table-bordered th {
+  border: 1px solid #b91c1c; /* Deep red borders */
+}
+
+/* Edited Buttons */
+.btn-info {
+  background-color: #f5c518; /* IMDb Gold */
+  border: none;
+  color: #1a1a1a;
+}
+
+.btn-info:hover {
+  background-color: #e4b315;
+  color: #fff;
+}
+
+/* Delete Button with Red Accent */
+.btn-danger {
+  background-color: #b91c1c; /* Deep red */
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #a4161a;
+}
+
+/* Table Cells */
+.table td, .table th {
+  padding: 12px;
+  text-align: center;
+}
+
+/* Hover Shadow */
+.table-hover tbody tr:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
